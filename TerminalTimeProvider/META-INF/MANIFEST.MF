@@ -7,3 +7,4 @@ Bundle-RequiredExecutionEnvironment: JavaSE-1.8
 Service-Component: OSGI-INF/*.xml
 Import-Package: dateTimeService.api,
  org.eclipse.osgi.framework.console
+Bundle-ActivationPolicy: lazy
